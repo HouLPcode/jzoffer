@@ -16,13 +16,13 @@ func HasPath(matrix string, rows, cols int, path string) bool {
 	//strlen := len(path)
 
 	plen := 0 //查找str字符串的第多少位，前面的字符串已经全部找到
-	visited := make([]bool,rows * cols,rows * cols)
+	visited := make([]bool, rows*cols, rows*cols)
 
 	for row := 0; row < rows; row++ {
 		for col := 0; col < cols; col++ {
 			//TODO 数组参数传递
 			b := hasPathCore(matrix, rows, cols, row, col, &plen, path, &visited)
-			if b == true{
+			if b == true {
 				return b
 			}
 		}
@@ -31,7 +31,7 @@ func HasPath(matrix string, rows, cols int, path string) bool {
 }
 
 func hasPathCore(matrix string, rows, cols, row, col int, plen *int, path string, visited *[]bool) bool {
-	if *plen == len(path) {//?????????????
+	if *plen == len(path) { //?????????????
 		return true
 	}
 
