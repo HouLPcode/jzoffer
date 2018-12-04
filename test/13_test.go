@@ -24,16 +24,16 @@ var Test13Datas = []Data13Type{
 	{-10, 10, 10, 0},
 }
 
-func Test13(t *testing.T){
-	run13Tests(t,func(threshold, rows, cols int) int{
-		cnt := alg.MovingCount_13(threshold,rows,cols)
+func Test13(t *testing.T) {
+	run13Tests(t, func(threshold, rows, cols int) int {
+		cnt := alg.MovingCount_13(threshold, rows, cols)
 		return cnt
 	})
 }
 
 func run13Tests(t *testing.T, f func(threshold, rows, cols int) int) {
 	for i, test := range Test13Datas {
-		output := f(test.Threshold,test.Rows,test.Cols)
+		output := f(test.Threshold, test.Rows, test.Cols)
 		if output != test.Expected {
 			t.Errorf("test %d: output mismatch:\ngot %d\nwant %d\n", i, output, test.Expected)
 		}
