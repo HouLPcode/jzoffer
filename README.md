@@ -53,7 +53,7 @@
 47_MaxValueOfGifts
 48_LongestSubstringWithoutDup
 49_UglyNumber                              leetcode 264
-50_01_FirstNotRepeatingChar
+50_01_FirstNotRepeatingChar   ok
 50_02_FirstCharacterInStream
 51_InversePairs
 52_FirstCommonNodesInLists
@@ -76,11 +76,8 @@
 62_LastNumberInCircle
 63_MaximalProfit
 64_Accumulate
-65_AddTwoNumbers
-66_ConstuctArray
-67_StringToInt
-68_CommonParentInTree
-Utilities
-.gitattributes
-.gitignore
-CodingInterviewChinese2.sln
+65_AddTwoNumbers          leetcode 371
+66_ConstuctArray         leetcode 238
+67_StringToInt           leetcode 8
+68_CommonParentInTree   leetcode 236
+
