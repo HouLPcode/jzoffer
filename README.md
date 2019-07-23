@@ -14,9 +14,9 @@
 11_MinNumberInRotatedArray
 12_StringPathInMatrix
 13_RobotMove
-14_CuttingRope
-15_NumberOf1InBinary
-16_Power
+14_CuttingRope 
+15_NumberOf1InBinary .....
+16_Power ....
 17_Print1ToMaxOfNDigits
 18_01_DeleteNodeInList
 18_02_DeleteDuplicatedNode
@@ -24,24 +24,24 @@
 20_NumericStrings
 21_ReorderArray
 22_KthNodeFromEnd
-23_EntryNodeInListLoop
-24_ReverseList
-25_MergeSortedLists
+23_EntryNodeInListLoop  leetcode 142
+24_ReverseList    leetcode 206
+25_MergeSortedLists   leetcode 21
 26_SubstructureInTree
 27_MirrorOfBinaryTree
 28_SymmetricalBinaryTree
 29_PrintMatrix
-30_MinInStack
-31_StackPushPopOrder
-32_01_PrintTreeFromTopToBottom
-32_02_PrintTreesInLines
-32_03_PrintTreesInZigzag
+30_MinInStack   leetcode 155
+31_StackPushPopOrder  
+32_01_PrintTreeFromTopToBottom ....
+32_02_PrintTreesInLines LC 102
+32_03_PrintTreesInZigzag  LC 103
 33_SquenceOfBST
 34_PathInTree
 35_CopyComplexList
 36_ConvertBinarySearchTree
 37_SerializeBinaryTrees
-38_StringPermutation
+38_StringPermutation  类似 LC 47
 39_MoreThanHalfNumber
 40_KLeastNumbers
 41_StreamMedian
